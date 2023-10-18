@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon", type="image/png", href="./img/icon.png">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Generador de Tarjetas</title>
+</head>
+<body>
+
+  <section class="presentacion p-0 m-0">
+
+    <div class="row justify-content-center align-items-center px-0 py-5 m-0">
+      <img src="./img/icon.png" alt="logo de la página" class="logo-presentacion col-12">
+      <h2 class="titulo text-center">Generador de Tarjetas</h2>
+      <h4 class="subtitulo-presentacion text-center">Entropic Cat</h4>
+
+      <button class="btn-iniciar col-4 p-3 lobster fs-3">Empieza a crear tu Tarjeta</button>
+    </div>
+
+  </section>
+
+  <div class="contenido row justify-content-left align-items-start p-0 m-0">
+    <aside class="col-3 p-0 m-0 menu-lateral">
+
+      <div class="logo row justify-content-center align-items-center p-0 mt-3 mx-0">
+        <img src="./img/icon.png" alt="" class="w-25 p-0">
+      </div>
+
+    </aside>
+  
+    <main class="col-9 p-0 m-0 container row justify-content-center align-items-center">
+      
+      <!-- Lienzo principal de la tarjeta -->
+      <div class="lienzo lienzo-1 p-0 my-3">
+        <!-- Lienzo en el que se imprime el motivo seleccionado, sobre el fondo de color -->
+        <div class="lienzo-motivo p-2 m-0 row justify-content-center align-items-start">
+          <!-- Texto principal -->
+          <h4 class="col-12 texto-principal text-center fw-bold fs-1 py-4 m-0 row justify-content-center align-items-center"></h4>
+
+        </div>
+      </div>
+  
+    </main>
+
+
+
+  </div>
+
+  <script src='./js/bootstrap.js'></script>
+  <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/dom-to-image/2.6.0/dom-to-image.min.js"
+      integrity="sha512-01CJ9/g7e8cUmY0DFTMcUw/ikS799FHiOA0eyHsUWfOetgbx/t6oV4otQ5zXKQyIrQGTHSmRVPIgrgLcZi/WMA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  <!-- <script src='./js/html2canvas.js'></script> -->
+  <script src='./js/app.js' type="module"></script>
+
+</body>
+</html>
